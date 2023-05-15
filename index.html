@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insight iitb</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+
+
+    <style>
+        button {
+            --width: 150px;
+            --timing: 2s;
+            border: 0;
+            width: var(--width);
+            padding-block: 1em;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1em;
+            background: rgb(64, 192, 87);
+            transition: all 0.2s;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+            animation: var(--timing) linear dance6123 infinite;
+            transform: scale(1.1) translateY(-1px);
+        }
+
+        @keyframes dance6123 {
+            to {
+                background-position: var(--width);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">InSight</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cards.html">Start-Ups</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="blogpost.html">Entrepreneurship</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="https://www.facebook.com/insight.iitbombay/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/insight.iitb/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/insightiitb?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCOrygxhb6povqsNt_EVbDzg"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h1 style="color: #ffffff;"> InSight  IITB</h1>
+                <h2 style="color: #2f83dd">The official Student Media Body of IIT Bombay</h2>
+                <h3 style="color: rgb(254, 254, 255);">Welcome to the official webpage of InSight IITB, the premier student media body of the esteemed Indian Institute of Technology Bombay (IIT Bombay). As a dynamic and student-driven organization, InSight serves as a vibrant platform for students to express their thoughts, share information, and engage with the diverse community of IIT Bombay. From campus news and events to research articles and technical innovations, we cover a wide range of topics, reflecting the vibrant culture and achievements of our institution. Join us as we explore, inspire, and illuminate the remarkable world of IIT Bombay through our articles, interviews, videos, and newsletters. Get ready to delve into a realm of knowledge, creativity, and collaboration with InSight IITB.</h3>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <style>
+            .blog-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        
+            .blog-content img {
+                width: 100%;
+                height: auto;
+            }
+        
+            .blog-title {
+                padding: 10px;
+            }
+        
+            .blog-title h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+        
+            .btn-blog {
+                margin-top: 10px;
+            }
+        </style>
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/startup1.jpg">
+                            <div class="blog-title">
+                                <h3>How Deryl McKissack, president and CEO of design and construction management ...</h3>
+                                <a href="https://www.strategy-business.com/article/Building-for-the-future" class="btn-wrapper">
+                                    <button class="btn btn-blog">Start-up</button>
+                                </a>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/Blog-post/startup2.jpg">
+                            <div class="blog-title">
+                                <h3>How to Start a Biotech Company on a Budget, GeneWEAVE and more...</h3>
+                                <a href="https://www.ycombinator.com/blog/how-to-start-a-biotech-company-on-a-budget/" class="btn-wrapper">
+                                <button class="btn btn-blog">Start-up</button>
+                                </a>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/Blog-post/ent1.jpg">
+                            <div class="blog-title">
+                                <h3>Good and Bad Reasons to Become an Entrepreneur 
+                                    <br> and more...
+                                </h3>
+                                <a href="https://medium.com/i-m-h-o/good-and-bad-reasons-to-become-an-entrepreneur-decf0766de8d" class="btn-wrapper">
+                                <button class="btn btn-blog">Entrepr..</button>
+                                </a>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Reframing the Narrative on Entrepreneurship
+                                    <br> and more...
+                                </h3>
+                                <a href="https://garyvaynerchuk.com/reframing-the-narrative-on-entrepreneurship/" class="btn-wrapper">
+                                <button class="btn btn-blog">Entrepr..</button>
+                                </a>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/placement1.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span>
+                                <span>2 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="https://insightiitb.netlify.app/blog/brainDrain.html">Placements, internal ‘brain drain’ and academic life of undergraduates at the Indian Institute of Technology, Bombay (IITB)</a>
+                            <p>The study conducted by IIT Bombay professors sheds light on the factors influencing students' preference for non-core jobs over core ones. It emphasizes the need for a comprehensive approach that includes curriculum enhancements, increased focus on core opportunities, and a reevaluation of placement strategies. By addressing these issues, educational institutions can better support students in making informed career choices and bridge the gap between academic and professional pursuits.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog22.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 16, 2019</span>
+                                <span>7 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="https://insightiitb.netlify.app/blog/darshan.html">Report: Darshan Solanki's Death and the Incidents Following</a>
+                            <p>Darshan, a student from the SC/ST community, fell from the 7th-floor refuge area of Hostel 16. The incident occurred in the afternoon around 1PM. One of the security guards called the ambulance, and he was immediately rushed to the IITB hospital, where he was declared dead. The body was transferred to the civic-run Rajawadi hospital, where the post-mortem was carried out. No physical suicide note was found. Investigations are currently underway to determine the cause of this tragic incident; an interim report made by the internal investigation committee was released on 6th March.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog33.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 19, 2019</span>
+                                <span>5 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="https://insightiitb.netlify.app/blog/chat-gpt.html">The ChatGPT Effect: An Insight</a>
+                            <p>Artificial intelligence and machine learning technologies have been making waves in the education sector, and ChatGPT is no exception. Developed by OpenAI, ChatGPT is a language model that can generate human-like responses to a variety of questions and prompts.
+
+                                As students at one of the top technological institutes in the country, IIT Bombay students are well-equipped to take advantage of these advancements. But what are the potential positive and negative impacts of ChatGPT on their education and beyond?
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog44.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2019</span>
+                                <span>12 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="https://insightiitb.netlify.app/blog/institute-journalism-awards.html">Institute Journalism Awards 2021-22</a>
+                            <p>Insight is proud to announce the winners of the Institute Journalism Awards 2021-22!
+                                The Institute Journalism Awards, namely, the Institute Journalism Colour and the Institute Journalism Special Mentions seeks to recognise exemplary contributions to journalism in the institute. This year, we have Shaswat Gupta and Pranav Kasat as recipients of the Institute Journalism Colour Awards; and Mithilesh Vaidya, Soham Purohit and Gaurav Badre for the Institute Journalism Special Mentions. They have all worked tirelessly to bring the best of their abilities to the table and take to greater heights the culture of journalism in the institute.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="Index.html" class="pages">1</a>
+                        <a href="cards.html" class="pages">2</a>
+                        <a href="blogpost.html" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">Acads</a>
+                                <span>(05)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Techonlogy</a>
+                                <span>(02)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Culturals</a>
+                                <span>(07)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Hostels</a>
+                                <span>(01)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Events @iitb</a>
+                                <span>(08)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/mpost1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://insightiitb.netlify.app/blog/magazine.html">Insight is here with the first physical edition of the semester - the Post Pandemic Special!</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://insightiitb.netlify.app/blog/india@75">India@75, ft. IIT Bombay</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/mpost2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://insightiitb.netlify.app/blog/accessibility-in-the-institute.html">Accessibility in the Institute</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://insightiitb.netlify.app/blog/sanya.html">Sanya - Crisil</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="https://insightiitb.netlify.app/blog/oshin.html">Oshin - TATA Steel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>"Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div class="input__container">
+                        <div class="shadow__input"></div>
+                        <button class="input__button__shadow">
+                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
+                            <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fill-rule="evenodd" fill="#17202A"></path>
+                          </svg>
+                        </button>
+                        <input type="text" name="text" class="input__search" placeholder="What do you want to search?">
+                      </div>
+                      
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Moodi</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">insight</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">Techfest</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">hostels</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">projects</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">Startups</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">entrepreneurship</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>Welcome to the official webpage of InSight IITB, the premier student media body of the esteemed Indian Institute of Technology Bombay (IIT Bombay). As a dynamic and student-driven organization, InSight serves as a vibrant platform for students to express their thoughts, share information, and engage with the diverse community of IIT Bombay. </p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                <a href="https://www.facebook.com/insight.iitbombay/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/insight.iitb/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/insightiitb?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCOrygxhb6povqsNt_EVbDzg"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                 Made by Riya Singh
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
