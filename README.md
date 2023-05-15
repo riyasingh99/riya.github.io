@@ -25,6 +25,10 @@ Site Content:
 The site content section displays a list of blog posts.
 Each blog post includes an image, author, date, number of comments, title, description, and a button to read more.
 Clicking on the "TITLE in blue" on each blog post redirects the user to the full blog post.
+there are some more posts added in the side which also on clicking redirects to the full articles. 
+at the bottom there is a option to navigate between 3 pages namely 1,2,3 which on clicking redirects to the blog pages of 2 categories.
+also there is a footer containing newsletter, social media icons which on clicking redirects to the respective social media page.
+there is an upward arrow symbol which on clicking redirects to the top of the current page.
 File Structure
 The repository has the following files and directories:
 
