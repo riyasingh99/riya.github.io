@@ -15,7 +15,7 @@ html, body{
     --text-light : #686666da;
     --bg-color: #0f0f0f;
     --white: #fdfdfd;
-    --midnight: #104f55;
+    --midnight: #2f83dd;
 
     /* gradient color   */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -318,7 +318,7 @@ main .post-content .post-title a{
 }
 
 .site-content .post-content .post-title .post-btn{
-    border-radius: 0;
+    border-radius: 2rem;
     padding: .7rem 1.5rem;
     background: var(--sky);
 }
@@ -401,8 +401,8 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .newsletter .form-btn{
-    border-radius: 0;
-    padding: .8rem 32%;
+    border-radius: 2rem;
+    padding: .8rem 10%;
     margin: 1rem 0;
     background: var(--sky);
 }
